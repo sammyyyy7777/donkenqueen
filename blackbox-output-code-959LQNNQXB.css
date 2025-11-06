@@ -1,0 +1,188 @@
+/* Reset dan Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffeaa7, #fab1a0); /* Playful gradient background */
+    color: #2d3436;
+    line-height: 1.6;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5em;
+    color: #e17055;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 2em;
+    color: #fdcb6e;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #636e72;
+}
+
+/* Section Customize */
+.customize {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.customize h3 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2em;
+    color: #00b894;
+    margin-bottom: 20px;
+}
+
+/* Product Section */
+.product {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product h3 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2em;
+    color: #e17055;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fdcb6e;
+}
+
+.product .product-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials */
+.testimonials {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonials h3, .testimonials h4 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.8em;
+    color: #00b894;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: scale(1.05); /* Playful hover effect */
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial .name {
+    font-weight: bold;
+    color: #e17055;
+}
+
+.stars {
+    color: #fdcb6e;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer h4 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+    color: #00b894;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Buttons */
+.btn {
+    background: linear-gradient(45deg, #fdcb6e, #e17055);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #e17055, #fdcb6e);
+    transform: translateY(-5px); /* Playful bounce */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    .product {
+        padding: 20px;
+    }
+    .testimonial {
+        max-width: 90%;
+    }
+}
